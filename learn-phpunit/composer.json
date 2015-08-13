@@ -1,0 +1,20 @@
+{
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "phpUnitTutorial": "src/phpUnitTutorial/",
+      "phpUnitTutorial": "src/phpUnitTutorial/",
+      "": "src/"
+    }
+  },
+  "scripts": {
+    "run": [
+      "echo 'Started web server on http://localhost:8888'",
+      "php -S localhost:8888 index.php"
+    ]
+  }
+}
