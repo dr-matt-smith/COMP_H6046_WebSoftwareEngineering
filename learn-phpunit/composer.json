@@ -6,8 +6,6 @@
   },
   "autoload": {
     "psr-0": {
-      "phpUnitTutorial": "src/phpUnitTutorial/",
-      "phpUnitTutorial": "src/phpUnitTutorial/",
       "": "src/"
     }
   },
